@@ -1,5 +1,4 @@
 package HelloWorld
 
 fun main() {
-
 }
