@@ -1,6 +1,6 @@
 package Testing
 
-import Appendices.AtomicTest.Examples.*
+import atomictest.eq
 
 fun main() {
     calculateBMI(160.0, 68.0) eq "Normal weight"

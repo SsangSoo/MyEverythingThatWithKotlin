@@ -1,6 +1,6 @@
 package Lists
 
-import Appendices.AtomicTest.Examples.eq
+import atomictest.eq
 
 fun main() {
     val first = mutableListOf(1)

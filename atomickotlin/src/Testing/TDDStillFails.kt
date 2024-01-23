@@ -1,6 +1,6 @@
 package Testing
 
-import Appendices.AtomicTest.Examples.*
+import atomictest.eq
 
 fun main() {
     // 모든 테스트가 실패함.

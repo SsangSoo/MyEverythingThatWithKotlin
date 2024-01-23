@@ -1,6 +1,6 @@
 package Lists
 
-import Appendices.AtomicTest.Examples.eq
+import atomictest.eq
 
 fun main() {
     var list = listOf('X') // 불변 리스트

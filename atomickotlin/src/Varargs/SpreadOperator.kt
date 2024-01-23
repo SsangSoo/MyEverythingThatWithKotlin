@@ -1,6 +1,6 @@
 package Varargs
 
-import Appendices.AtomicTest.Examples.eq
+import atomictest.eq
 
 fun main() {
     val array = intArrayOf(4, 5)

@@ -1,6 +1,7 @@
 package Testing
 
-import Appendices.AtomicTest.Examples.*
+import atomictest.eq
+import atomictest.neq
 
 fun main() {
     val v1 = 11

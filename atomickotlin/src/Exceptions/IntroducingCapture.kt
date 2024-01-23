@@ -1,6 +1,6 @@
 package Exceptions
 
-import Appendices.AtomicTest.Examples.*
+import atomictest.capture
 
 fun main() {
     capture {

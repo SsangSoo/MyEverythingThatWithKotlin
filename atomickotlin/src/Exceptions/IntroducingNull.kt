@@ -1,6 +1,6 @@
 package Exceptions
 
-import Appendices.AtomicTest.Examples.eq
+import atomictest.eq
 
 fun main() {
     "i$".toIntOrNull() eq null

@@ -1,6 +1,6 @@
 package Lists
 
-import Appendices.AtomicTest.Examples.eq
+import atomictest.eq
 
 fun main() {
     // 'val'/'var'에 가변 리스트를 대입하는 경우 :

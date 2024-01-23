@@ -1,6 +1,6 @@
 package Lists
 
-import Appendices.AtomicTest.Examples.eq
+import atomictest.eq
 
 fun main() {
     val ints = listOf(99, 3, 5, 7, 11, 13)

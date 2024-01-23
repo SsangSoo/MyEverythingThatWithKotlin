@@ -1,6 +1,6 @@
 package Varargs
 
-import Appendices.AtomicTest.Examples.eq
+import atomictest.eq
 
 fun evaluate(vararg ints: Int) =
             "Size: ${ints.size}\n" +

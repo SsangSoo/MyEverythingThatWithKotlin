@@ -1,5 +1,5 @@
-// AtomicTest/AtomicTest.kt
-package Appendices.AtomicTest.Examples
+package atomictest
+
 import kotlin.math.abs
 import kotlin.reflect.KClass
 
@@ -94,8 +94,10 @@ class CapturedException(
 fun capture(f:() -> Unit): CapturedException =
   try {
     f()
-    CapturedException(null,
-      "$ERROR_TAG Expected an exception")
+    CapturedException(
+      null,
+      "$ERROR_TAG Expected an exception"
+    )
   } catch (e: Throwable) {
     CapturedException(e::class,
       (e.message?.let { ": $it" } ?: ""))

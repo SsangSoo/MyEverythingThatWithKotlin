@@ -1,6 +1,6 @@
 package Lists
 
-import Appendices.AtomicTest.Examples.eq
+import atomictest.eq
 
 // 반환 타입을 추론한다.
 fun inferred(p: Char, q: Char) = listOf(p, q)

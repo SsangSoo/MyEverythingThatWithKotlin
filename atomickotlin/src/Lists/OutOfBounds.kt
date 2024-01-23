@@ -1,6 +1,6 @@
 package Lists
 
-import Appendices.AtomicTest.Examples.*
+import atomictest.capture
 
 fun main() {
     val ints2 = listOf(1, 2, 3)
