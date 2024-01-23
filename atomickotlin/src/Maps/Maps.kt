@@ -17,7 +17,15 @@ fun main() {
     constants.values eq "[3.141, 2.718, 1.618]"
 
     var s = ""
-    // 키-값 쌍을 이터레이션 한다.
-    for(entry)
+    // 키-값 쌍을 이터레이션 한다
+    for(entry in constants) {
+        s += "${entry.key}=${entry.value}, "
+    }
+    s eq "Pi=3.141, e=2.718, phi=1.618,"
+    s = ""
+    // 이터레이션을 하면서 키와 값을 분리한다.
+    for ((key, value) in constants)
+        s += "$key=$value, "
+    s eq "Pi=3.141, e=2.718, phi=1.618,"
 
 }
