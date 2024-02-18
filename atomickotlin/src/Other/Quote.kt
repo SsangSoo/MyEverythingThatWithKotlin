@@ -1,7 +1,7 @@
 package Other
 import atomictest.eq
-import ExtensionFunctions.doubleQuote
-import ExtensionFunctions.singleQuote
+import sec03.extension_functions.doubleQuote
+import sec03.extension_functions.singleQuote
 
 fun main() {
     "Single".singleQuote() eq "'Single'"
