@@ -1,4 +1,0 @@
-package HelloWorld
-
-fun main() {
-}
